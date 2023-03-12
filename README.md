@@ -5,7 +5,8 @@
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Upstash](https://img.shields.io/badge/upstash-%23000000.svg?style=for-the-badge&logo=upstash&logoColor=white)
+![Upstash](https://img.shields.io/badge/upstash-00c087.svg?style=for-the-badge&logo=upstash&logoColor=white)
+![Sentry](https://img.shields.io/badge/sentry-blueviolet.svg?style=for-the-badge&logo=sentry&logoColor=white)
 
 Video on demand platform created in Next.js
 
@@ -23,10 +24,11 @@ Video on demand platform created in Next.js
 
 - Next.js framework
 - Typescript
-- Youtube API
 - Redis
 - React Speech Recognition
 - Github workflows
+- Mobx store
+- Sentry
 
 ## Development
 

@@ -1,6 +1,7 @@
 import React, { ComponentPropsWithoutRef, useId } from 'react';
 import { baseRem } from '@/styles/globalStyles';
-import { StyledButton, StyledTooltip } from './styled';
+// import { StyledButton, StyledTooltip } from './styled';
+import { StyledButton } from './styled';
 
 export interface IButtonProps extends ComponentPropsWithoutRef<'button'> {
   children?: React.ReactNode;
@@ -86,7 +87,8 @@ const Button = React.forwardRef<HTMLButtonElement, IButtonProps>(
         >
           {children}
         </StyledButton>
-        {title && <StyledTooltip noArrow anchorId={buttonId} place="bottom" />}
+        {/* {title && <StyledTooltip noArrow anchorId={buttonId} place="bottom" />} */}
+        {title}
       </>
     );
   },
