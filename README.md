@@ -1,90 +1,40 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/141659551-d7ba5630-7200-46fe-863b-87818dae970a.png" alt="Next.js TypeScript Starter">
-</p>
+# Vod.io Next.js video on demand App
 
-<br />
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Upstash](https://img.shields.io/badge/upstash-%23000000.svg?style=for-the-badge&logo=upstash&logoColor=white)
 
-<div align="center"><strong>Non-opinionated TypeScript starter for Next.js</strong></div>
-<div align="center">Highly scalable foundation with the best DX. All the tools you need to build your next project.</div>
+Video on demand platform created in Next.js
 
-<br />
+## Preview
 
-<div align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
-
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=flat-square&color=5e17eb&labelColor=000000">
-
-  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=flat-square&color=5e17eb&labelColor=000000" alt="Follow @jpedroschmitz" />
-  </a>
-</div>
-
-<div align="center">
-  <sub>Created by <a href="https://twitter.com/jpedroschmitz">João Pedro</a> with the help of many <a href="https://github.com/jpedroschmitz/typescript-nextjs-starter/graphs/contributors">wonderful contributors</a>.</sub>
-</div>
-
-<br />
+<table align="center">
+  <tr>
+    <td align="center" width="95%" colspan="2">
+      <img src="https://github.com/renatoxm/vod-next/blob/main/public/assets/preview.jpg?raw=true" alt="Preview" title="Preview">
+    </td>
+  </tr>
+</table>
 
 ## Features
 
-- ⚡️ Next.js 13
-- ⚛️ React 18
-- ⛑ TypeScript
-- 📏 ESLint — To find and fix problems in your code
-- 💖 Prettier — Code Formatter for consistent style
-- 🐶 Husky — For running scripts before committing
-- 🚓 Commitlint — To make sure your commit messages follow the convention
-- 🖌 Renovate — To keep your dependencies up to date
-- 🚫 lint-staged — Run ESLint and Prettier against staged Git files
-- 👷 PR Workflow — Run Type Check & Linters on Pull Requests
-- ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
-- 🗂 Path Mapping — Import components or images using the `@` prefix
+- Next.js framework
+- Typescript
+- Youtube API
+- Redis
+- React Speech Recognition
+- Github workflows
 
-## Quick Start
-
-The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
-
-```
-# yarn
-yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
-# npm
-npx create-next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
-# pnpm
-pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
-```
-
-### Development
+## Development
 
 To start the project locally, run:
 
 ```bash
 pnpm dev
 ```
-
-Open `http://localhost:3000` with your browser to see the result.
-
-## Testimonials
-
-> [**“This starter is by far the best TypeScript starter for Next.js. Feature packed but un-opinionated at the same time!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issue-789642190)<br>
-> — Arafat Zahan
-
-> [**“I can really recommend the Next.js Typescript Starter repo as a solid foundation for your future Next.js projects.”**](https://corfitz.medium.com/create-a-custom-create-next-project-command-2a6b35a1c8e6)<br>
-> — Corfitz
-
-> [**“Brilliant work!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issuecomment-769314539)<br>
-> — Soham Dasgupta
-
-## Showcase
-
-List of websites that started off with Next.js TypeScript Starter:
-
-- [dowhile.io](https://dowhile.io)
-- [hygraph.com](https://hygraph.com)
-- [nextlevelweek.com](https://nextlevelweek.com)
-- [rocketseat.com.br](https://www.rocketseat.com.br)
-- [unfork.vercel.app](https://unfork.vercel.app)
-- [cryptools.dev](https://cryptools.dev)
-- [Add yours](https://github.com/jpedroschmitz/typescript-nextjs-starter/edit/main/README.md)
 
 ## Documentation
 
@@ -95,9 +45,9 @@ List of websites that started off with Next.js TypeScript Starter:
 
 ### Directory Structure
 
-- [`.github`](.github) — GitHub configuration including the CI workflow.<br>
-- [`.husky`](.husky) — Husky configuration and hooks.<br>
-- [`public`](./public) — Static assets such as robots.txt, images, and favicon.<br>
+- [`.github`](.github) — GitHub configuration including the CI workflow.
+- [`.husky`](.husky) — Husky configuration and hooks.
+- [`public`](./public) — Static assets such as robots.txt, images, and favicon.
 - [`src`](./src) — Application source code, including pages, components, styles.
 
 ### Scripts
@@ -115,7 +65,6 @@ TypeScript are pre-configured with custom path mappings. To import components or
 
 ```tsx
 import { Button } from '@/components/Button';
-
 // To import images or other files from the public folder
 import avatar from '@/public/avatar.png';
 ```
@@ -124,6 +73,14 @@ import avatar from '@/public/avatar.png';
 
 This starter uses pnpm by default, but this choice is yours. If you'd like to switch to Yarn/npm, delete the `pnpm-lock.yaml` file, install the dependencies with Yarn/npm, change the CI workflow, and Husky Git hooks to use Yarn/npm commands.
 
-## License
+Open `http://localhost:3000` with your browser to see the result.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
+## License & disclaimer
+
+This project is licensed under the MIT license. For more information, see the [LICENSE](LICENSE.md) file.
+
+It was created for feature presentation and case study only, it is not intended for commercial use.
+
+YouTube is a trademark of GOOGLE Inc.
+
+All images and videos displayed were pulled from YouTube's API and [Pexels](https://www.pexels.com/) respecting their licenses.
