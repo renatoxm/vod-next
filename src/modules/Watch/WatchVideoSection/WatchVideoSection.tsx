@@ -10,14 +10,13 @@ interface IWatchVideoSectionProps {
   children?: React.ReactNode;
 }
 
-const WatchVideoSection: React.FC<IWatchVideoSectionProps> = (props) => {
+const WatchVideoSection: React.FC<IWatchVideoSectionProps> = () => {
   return (
     <StyledVideoSection>
       <VideoPlayer
         controls
         autoPlay
-        // src="https://vod-sample-project-vercel.s3.amazonaws.com/j4vaywoll6.mp4"
-        src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        src="https://vod-sample-project-vercel.s3.amazonaws.com/j4vaywoll6.mp4"
       />
       <Spacer vertical={32} />
       <VideoInfo />
